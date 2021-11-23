@@ -149,16 +149,3 @@ Hezlichen Glückwunsch, wenn du es soweit geschafft hast. Ab jetzt fängt es an 
     > Diesen Aufwand hat man immer, wenn man eine neue Programmiersprache hinzufügen will und man möchte, dass alles funktioniert. Klar übernimmt die Programmierumgebung wie 
       IntelliJ oder Visual Studio das ganze für dich, wenn du dadrin später programmierst. Aber wenn du auch außerhalb davon Java oder seinen Compiler benutzen willst, musst 
       du das wohl oder übel manuell machen.
-          
-
-- IntelliJ
-    - Nun kannst du PyCharm öffnen. Du wählst dann `Neues Prejekt` aus und als start Ordner wählst du **Aufgaben** aus, 
-    den du gerade geklont hast.
-    - Dann sagst du PyCharm noch schnell wo es Python findet, indem du dich wie folgt da hinnavigierst:
-    
-        `File` -> `Settings` -> `Project: Aufgaben` -> `Project Interpreter`
-     
-    - Du kannst auf das **Zahnrad** drücken und dann auf **Add..** (die erste Option).
-    - Nun wählst du links die 3. Option `System Interpreter` und dann navigierst du dich zu deinem installierten Python 
-    und wählst die **python.exe** aus.
-    - Dann bist du auch damit fertig und die Abenteuer können beginnen. <3
