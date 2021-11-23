@@ -62,7 +62,7 @@ Im folgenden findest du Links zum Installieren und eine Einweisung zum Aufsetzen
 
 - **Java RE**
     - Als nächstes laden wir uns Java runter. Genauer gesagt die Virtuelle Maschine von Java.
-      > Java funktiert nämlich so, dass du deinen Code schreibst und dann lässt du einen Compiler darüber laufen, der alles was du geschrieben hast übersetzt in eine Sprache,
+      > Java funktiert nämlich so, dass du deinen Code schreibst und dann lässt du einen Compiler darüber laufen, der alles, was du geschrieben hast, in eine Sprache übersetzt,
         die kein Mensch mehr versteht. Und wichtig anzumerken, auch kein Computer. Bei andere Sprachen wie C oder C++ übersetzt der Compiler deinen Code direkt in von Computern 
         verstehbaren Code. Der Java Compiler jedoch nicht und genauso funktiert das auch bei C#.
       
@@ -125,6 +125,31 @@ Hezlichen Glückwunsch, wenn du es soweit geschafft hast. Ab jetzt fängt es an 
     - Perfekt!!!!!!!!!!
     
 - Java Pfadvariable setzen
+    - Als nächstes setzen wir die sogenannte Pfadvariable, die eine der Umgebungsvariablen deines Betriebsystems ist.
+        > So, aber was bedeutet das? Die Umgebungsvariablen sind sehr wichtige 'Enstellungen' für dein Betriebssystem. Wie der Name sagt, sind es Variablen deren Werte du 
+          verändern kannst.
+          
+        > Die Pfadvariable im allgemeinen beinhaltet Dateipfade/Speicherorte auf deinem Computer. An diesen Orten auf dem Computer sind Programme gespeichert, die Dank dieser             Variable überall ausführbar sind auf deinem Computer. Das heißt, wenn wir hier den Java Compiler hinzufügen, kann dieser überall problemlos auf deinem Computer 
+          ausgeführt werden. Damit hast später weniger Ärger.
+    - Also du drückst jetzt die Tasten `Windows` + `E`.
+    - Dann öffnest du den Ordner, in dem du dein Java JDK vorhin installiert hast.
+        > Der Ganze müsste irgendwie so aussehen: `Programme` oder `Programme (x86)` -> `Java` -> `jdk-17.0.1`.
+    - In diesem Odner findest du einen weiteren Odner namens `bin`. Diesen öffnest du.
+        > In diesem Odner befinden sich alle wichtigen Sachen, inklusive dem Compiler. Das brauchen wir nachher aber garnicht mehr zu wissen, also alles gut.
+    - Als nächstes musst du dir den Dateipfad dieses 'bin' Ordners kopieren. Das machst du indem du ganz oben in der Leiste rechts neben das Wort 'bin' einen Linksklick machst.
+    - Dann müsste der Dateipfad blau markiert sein und du kannst ihn kopieren.
+    > Als nächstes begeben wir uns zu den Umgebungsvariablen und fügen diesen Dateipfad hinzu.
+    - Du Gehst jetzt unten links bei Windows in die Suchleiste und gibst folgendes Wort ein `Systemumgebungsvariablen` und drückst **Enter**.
+    - Es öffnet sich ein Fenster, in dem unten ein Knopf `Umgebungsvariablen` ist. Diesen drückst du.
+        > In dem neuen Fenster stehen oben und unten nun die Umgebungsvariablen. Die erste Spalte gibt jeweils den Namen der Variablen an.
+    - Du suchst nun oben oder unten die Variable `path` und machst einen Doppelklick auf sie.
+        > Nun kannst du der Variable einen Wert zuweisen. Das ganze ist eher eine Liste als eine Variable mit einem festen Wert.
+    - Also du drückst auf `Neu` und dann machst du in der neuen Zeile `Rechstklick` -> `Einfügen`.
+    - Dann drückst du überal 'Ok' und du bist damit fertig. Endlich geschafft.
+    > Diesen Aufwand hat man immer, wenn man eine neue Programmiersprache hinzufügen will und man möchte, dass alles funktioniert. Klar übernimmt die Programmierumgebung wie 
+      IntelliJ oder Visual Studio das ganze für dich, wenn du dadrin später programmierst. Aber wenn du auch außerhalb davon Java oder seinen Compiler benutzen willst, musst 
+      du das wohl oder übel manuell machen.
+          
 
 - IntelliJ
     - Nun kannst du PyCharm öffnen. Du wählst dann `Neues Prejekt` aus und als start Ordner wählst du **Aufgaben** aus, 
